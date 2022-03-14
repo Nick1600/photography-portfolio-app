@@ -1,0 +1,7 @@
+#rolls-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 2vh;
+}

@@ -1,0 +1,62 @@
+/*CLOSED*/
+
+.roll-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    transition: ease-in 0.2s;
+}
+
+.roll-link:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    width: 62%;
+    height: 80vh;
+}
+
+
+.roll-title {
+    color: black;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+
+
+/*OPEN*/
+#grid-container {
+    display: grid;
+    grid-template: repeat(10, 1fr) / 1fr 1fr;
+    width: 100%;
+    height: auto;
+}
+.grid-image {
+    padding: 2rem;
+}
+.grid-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+#image-1 {
+    grid-area: 0 / 0 / 1 / 1;
+}
+#image-2 {
+    grid-area: 0 / 1 / 1 / 2;
+}
+#image-3 {
+    grid-area: 1 / 0 / 2 / 1;
+}
+#image-4 {
+    grid-area: 1 / 1 / 2 / 2;
+}
