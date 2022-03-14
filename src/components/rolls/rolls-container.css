@@ -1,7 +1,8 @@
 #rolls-container {
-    width: 100%;
-    height: auto;
-    display: flex;
     position: relative;
-    top: 2vh;
+    top: 180vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }

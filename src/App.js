@@ -8,7 +8,6 @@ function App() {
       <Header />
       <Description />
       <RollsContainer />
-      <h1>Hello, World</h1>
     </div>
   );
 }

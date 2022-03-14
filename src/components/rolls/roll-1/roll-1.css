@@ -13,6 +13,7 @@
     border-radius: 1rem;
     margin: 1rem 0;
     transition: ease-in 0.2s;
+    background-image: url('./media/0002.JPG');
 }
 
 .roll-link:hover {
