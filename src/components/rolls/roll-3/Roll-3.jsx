@@ -32,7 +32,7 @@ function RollThree(props) {
         return (
             <section className="roll-link" id="three" href="./roll-pages/roll-one/index.html">
                 <h2 className="roll-title" id="title-1">
-                    two
+                    three
                 </h2>
             </section>
         );

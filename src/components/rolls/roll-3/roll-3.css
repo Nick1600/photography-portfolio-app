@@ -11,10 +11,10 @@
     border-radius: 1rem;
     margin: 1rem 0;
     transition: ease-in 0.2s;
-    background-image: url('./media/0003.JPG');
+    background-image: url('./media/0004.JPG');
 }
 
-#two:hover {
+#three:hover {
     opacity: 0.6;
     cursor: pointer;
     width: 62%;

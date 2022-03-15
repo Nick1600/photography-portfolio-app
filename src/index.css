@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Neonderthaw&family=Work+Sans&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -6,6 +8,7 @@ html {
   margin: 0;
   padding: 0;
   font-size: 20px;
+  background-color: rgb(255, 248, 218);
 }
 
 h1 {

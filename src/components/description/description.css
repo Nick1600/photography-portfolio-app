@@ -1,7 +1,9 @@
+
+
 #description-container {
     position: absolute;
     top: 100vh;
-    width: 100%;
+    width: 99.4%;
     display: flex;
     justify-content: center;
     align-items: space-around;

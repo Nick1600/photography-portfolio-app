@@ -5,8 +5,9 @@ import RollThree from './roll-3/Roll-3.jsx'
 import './rolls-container.css';
 
 function RollsContainer() {
-    return (
+    return (  
         <div id='rolls-container'>
+            <h2 id='rolls-header'>rolls:</h2>
             <RollOne isOpen={false} />
             <RollTwo isOpen={false} />
             <RollThree isOpen={false} />
