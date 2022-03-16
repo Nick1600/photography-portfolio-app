@@ -113,14 +113,16 @@ function RollOne() {
                     <div className="grid-image" id="image-23">
                         <img src={image23} alt="" />
                     </div>
-                    <p 
-                        id='bottom-close' 
-                        className='close-button'
-                        onClick={handleClick}
-                    >
-                        close roll-1
-                    </p>
+                    
                 </section>
+                <p 
+                    id='bottom-close' 
+                    className='close-button'
+                    onClick={handleClick}
+                >
+                    close roll-1
+                </p>
+
             </div>
         );
     }
