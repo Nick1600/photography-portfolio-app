@@ -31,6 +31,16 @@
     z-index: 2;
 }
 
+/*media queries*/
+@media only screen and (max-width: 1100px) {
+    .roll-link {
+        width: 80%;
+    }
+    .roll-link:hover {
+        width: 82%;
+    }
+}
+
 
 
 /*OPEN*/

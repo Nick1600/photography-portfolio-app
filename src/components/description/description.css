@@ -20,3 +20,24 @@
 #profile-picture {
     object-fit: cover;
 }
+
+/*media queries*/
+@media only screen and (max-width: 1100px) {
+    .description-item {
+        width: 40%;
+        margin: 5%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #description-container {
+        top: 50vh;
+        flex-direction: column-reverse;
+        padding-left: 9%;
+    }
+    .description-item {
+        width: 80%;
+        padding-right: 0;
+        margin-right: 0;
+    }
+}

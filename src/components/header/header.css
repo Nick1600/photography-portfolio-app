@@ -20,3 +20,27 @@ header{
     color: rgb(85, 255, 255);
     text-shadow:0 0 0.5rem rgb(137, 255, 255);
 }
+
+/*media queries*/
+@media only screen and (max-width: 791px) {
+    #title {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    header {
+        height: 50vh;
+    }
+
+    #title {
+        padding-top: 5rem;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    #title {
+        padding-top: 0;
+    }
+}
