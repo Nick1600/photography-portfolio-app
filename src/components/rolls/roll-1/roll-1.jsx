@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './roll-1.css';
 import image01 from './media/0001.JPG';
 import image02 from './media/0002.JPG';
@@ -21,77 +21,107 @@ import image22 from './media/0022.JPG';
 import image23 from './media/0023.JPG'
 
 
-function RollOne(props) {
+function RollOne() {
+    const [isOpen, setIsOpen] = useState(false)
 
-    if (props.isOpen === false) {
+    function handleClick() {
+        if (isOpen === false) {
+            setIsOpen(true);
+        } else if (isOpen === true) {
+            setIsOpen(false);
+        }
+    }
+    
+    if (isOpen === false) {
         return (
-            <section className="roll-link" id="one" href="./roll-pages/roll-one/index.html">
+            <section 
+                className="roll-link" 
+                id="one" 
+                href="./roll-pages/roll-one/index.html"
+                onClick={handleClick}
+            >
                 <h2 className="roll-title" id="title-1">
                     one
                 </h2>
             </section>
         );
-    } else if (props.isOpen === true) {
+    } else if (isOpen === true) {
         return (
-            <section id="grid-container">
-                <div class="grid-image" id="image-1">
-                    <img src={image01} alt="" />
-                </div>
-                <div class="grid-image" id="image-2">
-                    <img src={image02} alt="" />
-                </div>
-                <div class="grid-image" id="image-3">
-                    <img src={image03} alt="" />
-                </div>
-                <div class="grid-image" id="image-4">
-                    <img src={image04} alt="" />
-                </div>
-                <div class="grid-image" id="image-5">
-                    <img src={image05} alt="" />
-                </div>
-                <div class="grid-image" id="image-6">
-                    <img src={image06} alt="" />
-                </div>
-                <div class="grid-image" id="image-7">
-                    <img src={image07} alt="" />
-                </div>
-                <div class="grid-image" id="image-8">
-                    <img src={image08} alt="" />
-                </div>
-                <div class="grid-image" id="image-9">
-                    <img src={image09} alt="" />
-                </div>
-                <div class="grid-image" id="image-10">
-                    <img src={image10} alt="" />
-                </div>
-                <div class="grid-image" id="image-11">
-                    <img src={image11} alt="" />
-                </div>
-                <div class="grid-image" id="image-12">
-                    <img src={image12} alt="" />
-                </div>
-                <div class="grid-image" id="image-17">
-                    <img src={image17} alt="" />
-                </div>
-                <div class="grid-image" id="image-18">
-                    <img src={image18} alt="" />
-                </div>
-                <div class="grid-image" id="image-19">
-                    <img src={image19} alt="" />
-                </div>
-                <div class="grid-image" id="image-20">
-                    <img src={image20} alt="" />
-                </div>
-                <div class="grid-image" id="image-21">
-                    <img src={image21} alt="" />
-                </div>
-                <div class="grid-image" id="image-22">
-                    <img src={image22} alt="" />
-                </div>
-                <div class="grid-image" id="image-23">
-                    <img src={image23} alt="" />
-                </div>
-            </section>
+            <div>
+                <p 
+                    id='top-close' 
+                    className='close-button'
+                    onClick={handleClick}
+                >
+                    close roll-1
+                </p>
+                <section id="grid-container">
+                    <div className="grid-image" id="image-1">
+                        <img src={image01} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-2">
+                        <img src={image02} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-3">
+                        <img src={image03} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-4">
+                        <img src={image04} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-5">
+                        <img src={image05} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-6">
+                        <img src={image06} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-7">
+                        <img src={image07} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-8">
+                        <img src={image08} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-9">
+                        <img src={image09} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-10">
+                        <img src={image10} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-11">
+                        <img src={image11} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-12">
+                        <img src={image12} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-17">
+                        <img src={image17} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-18">
+                        <img src={image18} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-19">
+                        <img src={image19} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-20">
+                        <img src={image20} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-21">
+                        <img src={image21} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-22">
+                        <img src={image22} alt="" />
+                    </div>
+                    <div className="grid-image" id="image-23">
+                        <img src={image23} alt="" />
+                    </div>
+                    <p 
+                        id='bottom-close' 
+                        className='close-button'
+                        onClick={handleClick}
+                    >
+                        close roll-1
+                    </p>
+                </section>
+            </div>
         );
     }
 }
