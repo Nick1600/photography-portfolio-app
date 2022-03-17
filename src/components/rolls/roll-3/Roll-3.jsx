@@ -33,7 +33,7 @@ function RollThree() {
         if (isOpen === false) {
             setIsOpen(true);
         } else if (isOpen === true) {
-            setIsOpen(false)
+            setIsOpen(false);
         }
     }
 
@@ -56,9 +56,9 @@ function RollThree() {
                     className='close-button'
                     onClick={handleClick}
                 >
-                    close roll-three
+                    close roll-3
                 </p>
-                <section id="grid-container-three">
+                <section id="grid-container">
                     <div className="grid-image" id="image-1">
                         <img src={image01} alt="" />
                     </div>

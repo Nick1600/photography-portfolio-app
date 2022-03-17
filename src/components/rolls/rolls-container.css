@@ -12,7 +12,12 @@
     width: 100%;
     padding-left: 5rem;
     font-family: 'Neonderthaw', cursive;
+<<<<<<< HEAD
 
+=======
+    color: rgb(85, 255, 255);
+    text-shadow:0 0 0.5rem rgb(63, 114, 114);
+>>>>>>> 0b1d1f99d48352a75b3f0400539e95994a154712
 }
 
 /*media queries*/

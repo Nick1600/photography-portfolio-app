@@ -29,10 +29,10 @@ function RollOne() {
         if (isOpen === false) {
             setIsOpen(true);
         } else if (isOpen === true) {
-            setIsOpen(false)
+            setIsOpen(false);
         }
     }
-
+    
     if (isOpen === false) {
         return (
             <section 
