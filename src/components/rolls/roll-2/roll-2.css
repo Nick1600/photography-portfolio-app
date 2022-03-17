@@ -43,9 +43,9 @@
 
 /*OPEN*/
 
-#grid-container {
+#grid-container-two {
     display: grid;
-    grid-template: repeat(12, 1fr) / 1fr 1fr;
+    grid-template: repeat(10, 1fr) / 1fr 1fr;
     width: 100%;
     height: auto;
 }

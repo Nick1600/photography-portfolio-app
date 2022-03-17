@@ -31,6 +31,19 @@
     z-index: 2;
 }
 
+.close-button {
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+}
+.close-button:hover {
+    opacity: 0.6;
+    font-size: 1.1rem;
+}
+
 /*media queries*/
 @media only screen and (max-width: 1100px) {
     .roll-link {
@@ -44,7 +57,7 @@
 
 
 /*OPEN*/
-#grid-container {
+#grid-container-one {
     display: grid;
     grid-template: repeat(10, 1fr) / 1fr 1fr;
     width: 100%;
