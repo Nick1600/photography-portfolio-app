@@ -58,7 +58,7 @@ function RollThree() {
                 >
                     close roll-3
                 </p>
-                <section id="grid-container">
+                <section id="grid-container-three">
                     <div className="grid-image" id="image-1">
                         <img src={image01} alt="" />
                     </div>

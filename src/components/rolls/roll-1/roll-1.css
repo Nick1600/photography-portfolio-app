@@ -84,3 +84,13 @@
 #image-4 {
     grid-area: 1 / 1 / 2 / 2;
 }
+
+/*OPEN media queries*/
+@media only screen and (max-width: 900px) {
+    #grid-container-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
