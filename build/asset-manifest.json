@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/photography-portfolio-app/static/css/main.a085fc29.css",
+    "main.js": "/photography-portfolio-app/static/js/main.c05a581d.js",
+    "static/media/0012.JPG": "/photography-portfolio-app/static/media/0012.a48f318652b6cc538dfb.JPG",
+    "static/media/0008.JPG": "/photography-portfolio-app/static/media/0008.551aae06924157591bdc.JPG",
+    "static/media/0004.JPG": "/photography-portfolio-app/static/media/0004.695621adce151768f568.JPG",
+    "static/media/0005.JPG": "/photography-portfolio-app/static/media/0005.22e675c3d1521fe2ef2e.JPG",
+    "static/media/0010.JPG": "/photography-portfolio-app/static/media/0010.9012dde4628a376b8cdb.JPG",
+    "static/media/0002.JPG": "/photography-portfolio-app/static/media/0002.048212452c3571bdd588.JPG",
+    "static/media/0003.JPG": "/photography-portfolio-app/static/media/0003.4ecca6a23e3def2e2c17.JPG",
+    "static/media/0009.JPG": "/photography-portfolio-app/static/media/0009.81e4ae9fe8e18bc2f503.JPG",
+    "static/media/0022.JPG": "/photography-portfolio-app/static/media/0022.cbd2b4f1c81b639d07ac.JPG",
+    "static/media/0017.JPG": "/photography-portfolio-app/static/media/0017.6949b43c6b18860c8e72.JPG",
+    "static/media/0015.JPG": "/photography-portfolio-app/static/media/0015.572852c4fdcba0381cec.JPG",
+    "static/media/0001.JPG": "/photography-portfolio-app/static/media/0001.25e2fce594b30250c0c4.JPG",
+    "static/media/0011.JPG": "/photography-portfolio-app/static/media/0011.bfbb4f6e83c363d35afd.JPG",
+    "static/media/0007.JPG": "/photography-portfolio-app/static/media/0007.a71ba41283205ebd0310.JPG",
+    "static/media/0006.JPG": "/photography-portfolio-app/static/media/0006.6817d7a9b375f60d859f.JPG",
+    "static/media/0023.JPG": "/photography-portfolio-app/static/media/0023.439f23d0eefe0a1dcff6.JPG",
+    "static/media/0016.JPG": "/photography-portfolio-app/static/media/0016.ceb68d7317849ac2cd4a.JPG",
+    "static/media/0014.JPG": "/photography-portfolio-app/static/media/0014.b3310de33470b29d0cdf.JPG",
+    "static/media/0024.JPG": "/photography-portfolio-app/static/media/0024.f01fbe19238227c58df2.JPG",
+    "static/media/0018.JPG": "/photography-portfolio-app/static/media/0018.8d4ccb569ce6ba260591.JPG",
+    "static/media/0020.JPG": "/photography-portfolio-app/static/media/0020.b3e81b5379487c212c44.JPG",
+    "static/media/0019.JPG": "/photography-portfolio-app/static/media/0019.d58f79146a47a1ed7e55.JPG",
+    "static/media/0013.JPG": "/photography-portfolio-app/static/media/0013.d2ec0ec34a34a92ec904.JPG",
+    "static/media/0021.JPG": "/photography-portfolio-app/static/media/0021.56a21298eb45b1ba64ab.JPG",
+    "static/media/profile-image.JPG": "/photography-portfolio-app/static/media/profile-image.b3310de33470b29d0cdf.JPG",
+    "static/media/landing-image.JPG": "/photography-portfolio-app/static/media/landing-image.b3e81b5379487c212c44.JPG",
+    "index.html": "/photography-portfolio-app/index.html",
+    "main.a085fc29.css.map": "/photography-portfolio-app/static/css/main.a085fc29.css.map",
+    "main.c05a581d.js.map": "/photography-portfolio-app/static/js/main.c05a581d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a085fc29.css",
+    "static/js/main.c05a581d.js"
+  ]
+}
