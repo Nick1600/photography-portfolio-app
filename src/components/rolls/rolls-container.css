@@ -27,6 +27,12 @@
     }
 }
 
+@media only screen and (max-width: 720px) {
+    #rolls-container {
+        top: 130;
+    }
+}
+
 @media only screen and (max-height: 600px) {
     #rolls-container {
         top: 170vh;

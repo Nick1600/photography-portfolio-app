@@ -3,6 +3,7 @@ import RollOne from './roll-1/roll-1';
 import RollTwo from './roll-2/Roll-2';
 import RollThree from './roll-3/Roll-3'
 import './rolls-container.css';
+import Footer from '../footer/Footer';
 
 
 
@@ -14,6 +15,7 @@ function RollsContainer() {
             <RollOne />
             <RollTwo />
             <RollThree />
+            <Footer />
         </div>
     );
 }
